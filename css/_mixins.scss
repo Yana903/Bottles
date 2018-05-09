@@ -1,0 +1,7 @@
+@mixin max-screen($point-size)
+{
+  @media screen and (max-width: $point-size)
+  {
+    @content;
+  }
+}
